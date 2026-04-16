@@ -1,4 +1,4 @@
-# Script Bash para backup de diretórios em servidores Linux.
+# Script bash para backup simples de diretórios em ambientes Linux
  
 ---
  
@@ -13,7 +13,7 @@ Solicita o caminho do diretório de origem via terminal e realiza a cópia recur
 - Linux com Bash
 - Permissão de leitura no diretório de origem
 - Permissão de escrita no diretório de destino
-- Diretório de destino (`~/Documentos/Alura/labs/backup`) criado previamente
+- Diretório de destino (`~/Documentos/labs/backup`) criado previamente
 ---
  
 ## Uso
