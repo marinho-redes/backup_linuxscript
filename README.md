@@ -23,7 +23,7 @@ chmod +x backup.sh
 ./backup.sh
 ```
  
-Informe o caminho do diretório quando solicitado. O backup será salvo em `~/Documentos/Alura/labs/backup`.
+Informe o caminho do diretório quando solicitado. O backup será salvo em `~/Documentos/labs/backup`.
  
 ---
  
@@ -34,16 +34,8 @@ $ ./backup.sh
 digite o diretório de backup:
 /etc/nginx
  
-'/etc/nginx' -> '/home/usuario/Documentos/Alura/labs/backup/nginx'
-'/etc/nginx/nginx.conf' -> '/home/usuario/Documentos/Alura/labs/backup/nginx/nginx.conf'
+'/etc/nginx' -> '/home/usuario/Documentos/labs/backup/nginx'
+'/etc/nginx/nginx.conf' -> '/home/usuario/Documentos/labs/backup/nginx/nginx.conf'
  
 Backup Concluído!
 ```
- 
----
- 
-## Observações
- 
-- Caminhos com espaços podem causar problemas na expansão da variável. Recomenda-se envolver em aspas duplas no script (`"$diretorio_bkp"`).
-- O diretório de destino não é criado automaticamente; o script retornará erro caso não exista.
----
