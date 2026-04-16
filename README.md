@@ -1,4 +1,4 @@
-### Script Bash para backup de diretórios em servidores Linux.
+# Script Bash para backup de diretórios em servidores Linux.
  
 ---
  
